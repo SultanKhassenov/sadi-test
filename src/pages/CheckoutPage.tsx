@@ -50,7 +50,10 @@ export default function CheckoutPage({ order }: { order: Order }) {
             className="flex-1 p-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold flex items-center justify-center gap-3"
           >
             <Printer size={24} />
-            Открыть PDF
+            <span className="flex flex-col items-center">
+              <p>Открыть PDF версию</p>
+              <p className="text-[8px] opacity-70">Не работает на Vercel</p>
+            </span>
           </Link>
         </div>
       </div>
