@@ -1,4 +1,3 @@
-import React from "react";
 import { ShoppingCart } from "lucide-react";
 import { useCart } from "../context/CartContext";
 import { PRODUCTS, CATALOG_TABLE_HEADERS } from "../lib/constants";
