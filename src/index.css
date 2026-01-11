@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+    background-color: #fbfbfb;
+}
+
+@page {
+  size: A4;
+  margin: 20mm 15mm;
+}
+
+@media print {
+    @page {
+      margin: 0;
+      size: A4 portrait;
+    }
+    
+    /* Убираем headers и footers браузера */
+    html, body {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
