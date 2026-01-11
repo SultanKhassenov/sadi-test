@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-    background-color: #fbfbfb;
+    background-color: #fafafa;
 }
 
 @page {
@@ -15,9 +15,23 @@ body {
       size: A4 portrait;
     }
     
-    /* Убираем headers и footers браузера */
     html, body {
       margin: 0 !important;
       padding: 0 !important;
+    }  
+
+    .print-main-hide {
+      max-width: none !important;
+      min-height: screen;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+    .print-btns-hide {
+      display: none !important;
+    }
+
+    .print-layout-hide {
+        box-shadow: none;
     }
   }
