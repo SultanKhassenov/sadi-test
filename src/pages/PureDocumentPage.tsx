@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import type { Order } from '../types';
 import OrderDocumentContent from '../components/OrderDocumentContent';
 import EmptyPage from './EmptyPage';
